@@ -1,0 +1,68 @@
+.nav-link
+{
+  color: white;
+  font-weight: 600;
+}
+
+.button_login
+{
+  border: none;
+  width: 100px;
+  height: 50px;
+  border: 3px solid #367FD6;
+  border-radius: 10px;
+}
+
+.button_login:hover
+{
+  background-color: #367FD6;
+  transition: 0.5s ease-in-out;
+}
+
+.nav a
+{
+  position: relative;
+}
+
+li a.active
+{
+  color: #52CAEB;
+}
+
+li a.active::after
+{
+  content: '';
+  height: 4px;
+  margin: 0 10%;
+  width: 80%;
+  background-color:#52CAEB ;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-link::after
+{
+  content: '';
+  height: 4px;
+  margin: 0 10%;
+  width: 0%;
+  background-color:#367FD6 ;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+  border-radius: 50px;
+}
+
+.nav-link:hover::after
+{
+  width: 80%;
+  background-color: #52CAEB;
+}
+
+.nav-link:hover
+{
+  color: #52CAEB;
+}

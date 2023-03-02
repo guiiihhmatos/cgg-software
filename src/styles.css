@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+:root
+{
+  --primary-color : #3B53F5;
+  --secondary-color : #367FD6;
+  --tertiary-color : #52CAEB;
+}
+
+/* ==== backgrounds default ==== */
+
+.background-primary
+{
+  background-color: var(--primary-color);
+}
+
+.background-secondary
+{
+  background-color: var(--secondary-color);
+}
+
+/* ==== colors default ==== */
+
+.color-white
+{
+  color: white;
+}
+
+
+/* ==== Logo ==== */
+
+.logo
+{
+  height:80px;
+  width: 80px;
+  cursor: pointer;
+}

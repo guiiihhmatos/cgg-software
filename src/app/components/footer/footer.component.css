@@ -1,0 +1,48 @@
+.footer__cgg
+{
+  min-height: 250px;
+}
+
+.info__cgg
+{
+  margin-top: 50px;
+}
+
+.font-paragrafo
+{
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.font-paragrafo:hover
+{
+  color: #52CAEB;
+  transition: 0.5s;
+}
+
+.font-titulo
+{
+  font-size: 18px;
+  font-weight: 600;
+  color: #52CAEB;
+}
+
+.div__icones
+{
+  width: 180px;
+}
+
+.icone
+{
+  color: black;
+  height: 24px;
+  width: 24px;
+}
+
+.icone:hover
+{
+  height: 25px;
+  width: 25px;
+  transition: 0.8s;
+}
