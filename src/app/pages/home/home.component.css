@@ -48,33 +48,87 @@
   font-size: 12px;
 }
 
+/* ===== Home quem somos nós ===== */
+
+.home__quemSomos
+{
+  padding: 50px 0;
+}
+
+.home__quemSomos__title
+{
+
+  font-family: 'Libre Baskerville', serif;
+}
+
+.quemSomos
+{
+  width: 60%;
+}
+
+.quemSomos__texto
+{
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+
+.icone
+{
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  animation: aparecendo 1s steps(30, end);
+}
+
 /* ===== Home nossos servicos ===== */
 
 .home__servicos
 {
+  background-color: #fffafa;
+  padding: 50px 0;
+}
 
+.home__servicos__title
+{
+  font-family: 'Libre Baskerville', serif;
 }
 
 .bloco-titulo
 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .bloco-subtitulo
 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .home__servicos-bloco
 {
-  border: 2px solid #367FD6;
   border-radius: 10px;
   padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.icone__servico
+{
+  background-color: #367FD6;
+  height: 100px;
+  width: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bi-laptop
+{
+  height: 30px;
+  width: 30px;
 }
 
 /* ===== images ===== */
@@ -95,6 +149,11 @@
 /* ===== key frames ===== */
 
 @keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes aparecendo {
   from { width: 0 }
   to { width: 100% }
 }
