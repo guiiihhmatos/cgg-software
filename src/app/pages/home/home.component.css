@@ -1,0 +1,109 @@
+/* === IMPORTS DE FONTES === */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Saira+Extra+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@1,100&family=Saira+Extra+Condensed:wght@500&display=swap');
+
+/* ===== Home main ===== */
+
+.home__main
+{
+  background-image: url('/assets/images/fundo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+.typewriter p
+{
+  overflow: hidden;
+  border-right: 4px solid white;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 2px;
+  animation: typing 4s steps(30, end) infinite;
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.home__solucoes p
+{
+  margin: 0;
+  letter-spacing: 2px;
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.corpo__texto
+{
+  text-align: center ;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.subtitulo
+{
+  text-align: center;
+  font-size: 12px;
+}
+
+/* ===== Home nossos servicos ===== */
+
+.home__servicos
+{
+
+}
+
+.bloco-titulo
+{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 22px;
+}
+
+.bloco-subtitulo
+{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+}
+
+.home__servicos-bloco
+{
+  border: 2px solid #367FD6;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ===== images ===== */
+
+.image__wifi
+{
+  height: 30px;
+  width: 30px;
+}
+
+.image__globo
+{
+  height: 200px;
+  width: 200px;
+  animation: rotate 8s linear infinite;
+}
+
+/* ===== key frames ===== */
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
