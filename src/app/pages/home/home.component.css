@@ -7,7 +7,7 @@
 
 .home__main
 {
-  background-image: url('/assets/images/fundo.png');
+  background-image: url('/assets/images/fundo-novo.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,6 +74,8 @@
 
 .icone
 {
+  height: 200px;
+  width: 200px;
   overflow: hidden;
   white-space: nowrap;
   margin: 0;
@@ -101,17 +103,15 @@
 
 .bloco-subtitulo
 {
+  margin-top: 20px;
   font-family: 'Libre Baskerville', serif;
   font-size: 14px;
 }
 
 .home__servicos-bloco
 {
-  border-radius: 10px;
   padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  height: 150px;
 }
 
 .icone__servico
