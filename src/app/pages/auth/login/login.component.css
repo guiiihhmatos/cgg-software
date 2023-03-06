@@ -1,82 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@1,100&family=Saira+Extra+Condensed:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
-/*
-.login
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 650px;
-  background-color: #fffafa;
-}
-
-.login__container
-{
-  height: 500px;
-  width: 350px;
-  background-image: linear-gradient(var(--primary-color), var(--secondary-color), var(--tertiary-color));
-  border-radius: 20px;
-}
-
-.logo-login
-{
-  height: 200px;
-  width: 200px;
-}
-
-.login__input
-{
-  margin: 10px 0;
-  border: none;
-  height: 40px;
-  border-radius: 6px;
-  background-color: #28282B;
-  color: white;
-  width: 70%;
-  outline: 0;
-  padding-left: 10px;
-  font-family: 'Roboto', sans-serif;
-
-}
-
-.login__button
-{
-  height: 40px;
-  width: 120px;
-  border-radius: 10px;
-  font-family: 'Roboto', sans-serif;
-  background-color: #28282B;
-  color: white;
-  border: none;
-} */
-
-
-
-
-
-
-
-
-
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-}
-.container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 100vh;
 }
 
 .screen {
 	background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
 	position: relative;
 	height: 600px;
-	width: 360px;
-	box-shadow: 0px 0px 24px #5C5696;
+	width: 460px;
+}
+
+.block__login
+{
+  background-color: var(--primary-color);
+  min-height: 800px;
 }
 
 .screen__content {
@@ -188,17 +129,25 @@
 	font-size: 14px;
 	margin-top: 30px;
 	padding: 16px 20px;
-	border-radius: 26px;
+	border-radius: 10px;
 	border: 1px solid #D4D3E8;
 	text-transform: uppercase;
 	font-weight: 700;
 	display: flex;
 	align-items: center;
-	width: 100%;
+	width: 80%;
 	color: #4C489D;
-	box-shadow: 0px 2px 2px #5C5696;
 	cursor: pointer;
 	transition: .2s;
+}
+
+.titulo__cgg::after
+{
+  content: "";
+  background-color: var(--primary-color);
+  height: 4px;
+  width: 30%;
+  display: block;
 }
 
 .login__submit:active,
@@ -206,6 +155,7 @@
 .login__submit:hover {
 	border-color: #6A679E;
 	outline: none;
+  background-color: rgb(240, 240, 240);
 }
 
 .button__icon {
@@ -238,7 +188,7 @@
 }
 
 .social-login__icon:hover {
-	transform: scale(1.5);
+	transform: scale(1.5)
 }
 
 .login__logo
