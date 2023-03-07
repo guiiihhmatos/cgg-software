@@ -9,18 +9,23 @@
           <h1>CGG</h1>
         </div>
 
-				<div class="login__field">
-					<i class="login__icon fas fa-user"></i>
-					<input type="text" class="login__input" placeholder="Email">
-				</div>
-				<div class="login__field">
-					<i class="login__icon fas fa-lock"></i>
-					<input type="password" class="login__input" placeholder="Senha">
-				</div>
-				<button class="button login__submit">
+				<form [formGroup]="loginForm">
+          <div class="login__field">
+            <i class="login__icon fas fa-user"></i>
+            <input type="text" class="login__input" placeholder="Email" formControlName="login">
+          </div>
+          <div class="login__field">
+            <i class="login__icon fas fa-lock"></i>
+            <input type="password" class="login__input" placeholder="Senha" formControlName="senha">
+          </div>
+        </form>
+				<button class="button login__submit" (click)="onSubmit()">
 					<span class="button__text">Entrar</span>
 					<i class="button__icon fas fa-chevron-right"></i>
 				</button>
+        <div>
+          <a routerLink="#" class="esqueci__senha">Esqueci a senha</a>
+        </div>
 			</form>
 			<div class="social-login">
 				<div>
@@ -43,3 +48,6 @@
 </div>
 
 
+<footer class="footer shadow">
+  <p class="p-footer">&copy; 2023.  CGG - SOFTWARE</p>
+</footer>

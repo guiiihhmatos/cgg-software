@@ -42,7 +42,5 @@
 
 .icone:hover
 {
-  height: 25px;
-  width: 25px;
-  transition: 0.8s;
+  transform: scale(1.3);
 }

@@ -8,6 +8,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class MenuComponent implements OnInit {
 
+  valLogin : any = 'true'
+
   constructor
   (
     private router : Router,
@@ -16,7 +18,9 @@ export class MenuComponent implements OnInit {
   )
   { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void
+  {
+  }
 
 
   detailsLogin()

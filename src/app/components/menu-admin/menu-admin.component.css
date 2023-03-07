@@ -1,0 +1,19 @@
+.list
+{
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+
+.menu-admin
+{
+  background-color: var(--primary-color);
+  height: 8vh;
+}
+
+.div__blocks, .dropdown
+{
+  padding: 0 20px;
+}

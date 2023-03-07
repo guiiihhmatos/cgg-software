@@ -16,8 +16,7 @@
 
 .block__login
 {
-  background-color: var(--primary-color);
-  min-height: 800px;
+  margin-top: 40px ;
 }
 
 .screen__content {
@@ -156,6 +155,20 @@
 	border-color: #6A679E;
 	outline: none;
   background-color: rgb(240, 240, 240);
+  transition: 0.6s;
+}
+
+.esqueci__senha
+{
+  text-decoration: none;
+  color: #e6e6e6;
+  font-size: 14px;
+}
+
+.esqueci__senha:hover
+{
+  color: #6A679E;
+  transition: 0.7s;
 }
 
 .button__icon {
@@ -195,4 +208,27 @@
 {
   height: 80px;
   width: 80px;
+}
+
+
+.footer
+{
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 133px;
+  height: 100px;
+
+}
+
+
+.p-footer
+{
+  font-size: 12px;
+}
+
+@keyframes mover {
+  from { width: 0 }
+  to { width: 100% }
 }

@@ -10,6 +10,12 @@ import { MenuComponent } from './components/menu/menu.component';
 import { LoginComponent } from './pages/auth/login/login.component';
 import { RegisterComponent } from './pages/auth/register/register.component';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { AdminHomeComponent } from './pages/admin/admin-home/admin-home.component';
+import { MenuAdminComponent } from './components/menu-admin/menu-admin.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +24,16 @@ import { RegisterComponent } from './pages/auth/register/register.component';
     ServicosComponent,
     MenuComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AdminHomeComponent,
+    MenuAdminComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

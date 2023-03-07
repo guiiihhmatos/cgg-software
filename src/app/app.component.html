@@ -1,10 +1,14 @@
-<header class="header">
+<header class="header" *ngIf="validate">
   <app-menu></app-menu>
+</header>
+
+<header class="header" *ngIf="!validate">
+  <app-menu-admin></app-menu-admin>
 </header>
 
 <main class="conteudo">
   <router-outlet></router-outlet>
 </main>
 
-<app-footer></app-footer>
+
 
