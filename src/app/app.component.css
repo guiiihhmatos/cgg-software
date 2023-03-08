@@ -9,3 +9,24 @@
   top: 0;
   z-index: 99;
 }
+
+
+/* === admin === */
+
+.lateral
+{
+  width: 15vw;
+  background-color: green;
+  height: 100vh;
+}
+
+.central
+{
+  width: 85%;
+}
+
+.conteudo-admin
+{
+  background-color: #f3f8fb;
+  min-height: 890px;
+}

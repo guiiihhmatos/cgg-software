@@ -14,6 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AdminHomeComponent } from './pages/admin/admin-home/admin-home.component';
 import { MenuAdminComponent } from './components/menu-admin/menu-admin.component';
+import { MenuLateralComponent } from './components/menu-lateral/menu-lateral.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { MenuAdminComponent } from './components/menu-admin/menu-admin.component
     RegisterComponent,
     AdminHomeComponent,
     MenuAdminComponent,
+    MenuLateralComponent,
   ],
   imports: [
     BrowserModule,

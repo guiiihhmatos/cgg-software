@@ -1,14 +1,40 @@
-<header class="header" *ngIf="validate">
-  <app-menu></app-menu>
-</header>
+<div *ngIf="validate">
 
-<header class="header" *ngIf="!validate">
-  <app-menu-admin></app-menu-admin>
-</header>
+  <header class="header">
+    <app-menu></app-menu>
+  </header>
 
-<main class="conteudo">
-  <router-outlet></router-outlet>
-</main>
+  <main class="conteudo">
+    <router-outlet></router-outlet>
+  </main>
+</div>
+
+
+<div *ngIf="!validate">
+  <div class="d-flex align-items-center">
+
+    <div class="lateral">
+      <app-menu-lateral></app-menu-lateral>
+    </div>
+
+    <div class="central">
+      <header class="header">
+        <app-menu-admin></app-menu-admin>
+      </header>
+      <main class="conteudo-admin">
+        <router-outlet></router-outlet>
+      </main>
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+
+
 
 
 

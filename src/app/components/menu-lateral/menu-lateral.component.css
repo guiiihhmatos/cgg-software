@@ -1,0 +1,74 @@
+.menu-lateral
+{
+  height: 100%;
+  background-color: white;
+}
+
+.menu-lateral__titulo h4
+{
+  color: var(--primary-color);
+}
+
+.menu-lateral__corpo
+{
+  height: 90vh;
+  margin-top: 10vh;
+}
+
+.menu-lateral__footer p
+{
+  color: #bababa;
+}
+
+.image
+{
+  margin-top: 25vh;
+}
+
+.image__logo
+{
+  height: 200px;
+  width: 200px;
+  opacity: 0.4;
+}
+
+li a.active, li.active
+{
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.nav-item
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+  cursor: pointer;
+  width: 90%;
+  margin-left: 10%;
+  border-radius: 20px 0 0 20px;
+}
+
+.teste
+{
+  margin-left: 10%;
+  width: 30%;
+  text-align: end;
+}
+
+.nav-link
+{
+  width: 50%;
+}
+
+.nav-item:hover a,.nav-item:hover
+{
+  color: white;
+}
+
+.nav-item:hover
+{
+  background-color: var(--primary-color);
+  transition: 0.4s;
+}

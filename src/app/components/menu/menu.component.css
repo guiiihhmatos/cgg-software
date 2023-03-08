@@ -9,13 +9,13 @@
   border: none;
   width: 100px;
   height: 50px;
-  border: 3px solid #367FD6;
+  border: 3px solid var(--secondary-color);
   border-radius: 10px;
 }
 
 .button_login:hover
 {
-  background-color: #367FD6;
+  background-color: var(--secondary-color);
   transition: 0.5s ease-in-out;
 }
 
@@ -26,7 +26,7 @@
 
 li a.active
 {
-  color: #52CAEB;
+  color: var(--tertiary-color);
 }
 
 li a.active::after
@@ -35,7 +35,7 @@ li a.active::after
   height: 4px;
   margin: 0 10%;
   width: 80%;
-  background-color:#52CAEB ;
+  background-color: var(--tertiary-color) ;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -48,7 +48,7 @@ li a.active::after
   height: 4px;
   margin: 0 10%;
   width: 0%;
-  background-color:#367FD6 ;
+  background-color: var(--secondary-color) ;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -59,10 +59,10 @@ li a.active::after
 .nav-link:hover::after
 {
   width: 80%;
-  background-color: #52CAEB;
+  background-color: var(--tertiary-color);
 }
 
 .nav-link:hover
 {
-  color: #52CAEB;
+  color: var(--tertiary-color);
 }

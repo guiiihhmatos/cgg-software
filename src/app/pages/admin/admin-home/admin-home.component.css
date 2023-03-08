@@ -1,6 +1,38 @@
-.block
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+.dashboard
 {
-  height: 0.5vh;
-  width: 2vw;
-  background-color: var(--primary-color);
+  width: 90%;
+  margin-top: 5vh;
+}
+
+.dashboard__block
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 180px;
+  width: 300px;
+  background-color: white;
+}
+
+
+.dashboard__info
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icone
+{
+  height: 40px;
+  width: 40px;
+}
+
+.info__texto p
+{
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
 }
