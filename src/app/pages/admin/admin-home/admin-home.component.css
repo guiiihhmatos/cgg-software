@@ -9,11 +9,13 @@
 .dashboard__block
 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 180px;
   width: 300px;
   background-color: white;
+  border-radius: 10px;
 }
 
 
@@ -24,10 +26,23 @@
   align-items: center;
 }
 
+.dashboard__paragrafo p
+{
+  color: #b6b6b6;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
+}
+
 .icone
 {
   height: 40px;
   width: 40px;
+}
+
+.info__titulo
+{
+  letter-spacing: 0.5px;
+  font-family: 'Rubik', sans-serif;
 }
 
 .info__texto p
@@ -36,3 +51,32 @@
   font-weight: 600;
   font-family: 'Rubik', sans-serif;
 }
+
+.dashboard__graphics
+{
+  margin-top: 8vh;
+}
+
+.graphics__services
+{
+  background-color: white;
+  height: 400px;
+  width: 700px;
+  padding: 0 30px;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+
+.graphics__services2
+{
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+#myChart, #myChart2
+{
+  cursor: pointer;
+}
+

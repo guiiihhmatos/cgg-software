@@ -56,6 +56,8 @@ export class AuthService {
     localStorage.removeItem('login')
     localStorage.removeItem('senha')
     localStorage.removeItem('nome_usuario')
+
+    location.reload()
   }
 
 

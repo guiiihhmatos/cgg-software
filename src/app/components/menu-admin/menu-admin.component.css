@@ -2,7 +2,7 @@
 {
   color: white;
   cursor: pointer;
-  
+
 }
 
 
@@ -15,4 +15,23 @@
 .div__blocks, .dropdown
 {
   padding: 0 20px;
+}
+
+.div__blocks
+{
+  width: 10%;
+}
+
+.icone-menu
+{
+  color: white;
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+}
+
+.icone-menu:hover
+{
+  transition: 0.5s;
+  transform: scale(1.2);
 }
