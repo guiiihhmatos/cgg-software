@@ -1,7 +1,7 @@
 .menu-lateral
 {
   height: 100%;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .menu-lateral__titulo h4
@@ -37,7 +37,7 @@
 li a.active, li.active
 {
   color: white;
-  background-color: var(--primary-color);
+  background-color: #4e66ff;
 }
 
 .nav-item
@@ -50,7 +50,7 @@ li a.active, li.active
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  border-radius: 20px;
+  border-radius: 7px;
 }
 
 .teste
@@ -71,6 +71,6 @@ li a.active, li.active
 
 .nav-item:hover
 {
-  background-color: var(--primary-color);
+  background-color: #4e66ff;
   transition: 0.4s;
 }

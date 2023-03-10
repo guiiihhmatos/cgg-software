@@ -1,6 +1,6 @@
 .list
 {
-  color: white;
+  color: #888888;
   cursor: pointer;
 
 }
@@ -8,7 +8,7 @@
 
 .menu-admin
 {
-  background-color: var(--primary-color);
+  background-color: white;
   height: 8vh;
 }
 
@@ -24,7 +24,7 @@
 
 .icone-menu
 {
-  color: white;
+  color: #888888;
   height: 22px;
   width: 22px;
   cursor: pointer;

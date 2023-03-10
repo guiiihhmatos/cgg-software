@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,10 +17,9 @@ import { AdminHomeComponent } from './pages/admin/admin-home/admin-home.componen
 import { MenuAdminComponent } from './components/menu-admin/menu-admin.component';
 import { MenuLateralComponent } from './components/menu-lateral/menu-lateral.component';
 import { AdminServicoComponent } from './pages/admin/admin-servico/admin-servico.component';
+import {MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
-import { MatTableModule } from '@angular/material/table';
-
 
 @NgModule({
   declarations: [
@@ -43,7 +43,8 @@ import { MatTableModule } from '@angular/material/table';
     ReactiveFormsModule,
     MatPaginatorModule,
     MatSortModule,
-    MatTableModule
+    MatTableModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

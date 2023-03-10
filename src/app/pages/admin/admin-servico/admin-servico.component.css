@@ -1,7 +1,23 @@
 .servicos
 {
   width: 70vw;
+}
+
+.excel
+{
+  width: 70vw;
   margin-top: 15vh;
+  margin-bottom: 2vh;
+}
+
+.button-excel
+{
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  height: 50px;
 }
 
 /* === Tabela === */
