@@ -1,3 +1,4 @@
+import { AdminServicoComponent } from './pages/admin/admin-servico/admin-servico.component';
 import { LoginComponent } from './pages/auth/login/login.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -23,6 +24,9 @@ const routes: Routes = [
     path: 'admin', children: [
       {
         path: 'home', component: AdminHomeComponent, canActivate: [AuthGuard]
+      },
+      {
+        path: 'servicos', component: AdminServicoComponent, canActivate: [AuthGuard]
       }
     ]
   }

@@ -15,6 +15,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { AdminHomeComponent } from './pages/admin/admin-home/admin-home.component';
 import { MenuAdminComponent } from './components/menu-admin/menu-admin.component';
 import { MenuLateralComponent } from './components/menu-lateral/menu-lateral.component';
+import { AdminServicoComponent } from './pages/admin/admin-servico/admin-servico.component';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { MatTableModule } from '@angular/material/table';
 
 
 @NgModule({
@@ -29,13 +33,17 @@ import { MenuLateralComponent } from './components/menu-lateral/menu-lateral.com
     AdminHomeComponent,
     MenuAdminComponent,
     MenuLateralComponent,
+    AdminServicoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
