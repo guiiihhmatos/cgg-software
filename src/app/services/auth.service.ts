@@ -37,7 +37,7 @@ export class AuthService {
 
 
     return this.http
-      .get<any>('/assets/api/usuarios.json')
+      .get<any>('assets/api/usuarios.json')
       .pipe(
         map(({ servidor }) => {
 

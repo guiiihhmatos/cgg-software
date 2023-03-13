@@ -91,7 +91,7 @@
 {
   color: #4C489D;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .login__field {
@@ -111,7 +111,8 @@
 	background: none;
 	padding: 10px;
 	padding-left: 24px;
-	font-weight: 700;
+  font-weight: 300;
+  letter-spacing: 2px;
 	width: 75%;
 	transition: .2s;
 }

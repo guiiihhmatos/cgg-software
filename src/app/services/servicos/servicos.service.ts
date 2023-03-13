@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 })
 export class ServicosService {
 
-  private api = '/assets/api/servicos.json'
+  private api = 'assets/api/servicos.json'
   constructor
   (
     private http : HttpClient
@@ -15,6 +15,6 @@ export class ServicosService {
 
   getServicos()
   {
-    return this.http.get<any>('/assets/api/servicos.json')
+    return this.http.get<any>('assets/api/servicos.json')
   }
 }

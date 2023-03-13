@@ -1,3 +1,4 @@
+import { AdminServicosDetalhesComponent } from './pages/admin/admin-servicos-detalhes/admin-servicos-detalhes.component';
 import { AdminServicoComponent } from './pages/admin/admin-servico/admin-servico.component';
 import { LoginComponent } from './pages/auth/login/login.component';
 import { NgModule } from '@angular/core';
@@ -27,6 +28,9 @@ const routes: Routes = [
       },
       {
         path: 'servicos', component: AdminServicoComponent, canActivate: [AuthGuard]
+      },
+      {
+        path: 'servicos/:codigo_servico', component: AdminServicosDetalhesComponent, canActivate: [AuthGuard]
       }
     ]
   }

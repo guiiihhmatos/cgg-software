@@ -1,0 +1,93 @@
+.detalhes
+{
+  width: 80%;
+  margin-top: 10vh;
+}
+
+.detalhes__empresa
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servico__contratados
+{
+  margin-top: 10vh;
+}
+
+.div__servico__contratado
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 12px solid rgb(0, 237, 237);
+  height: 260px;
+  width: 280px;
+}
+
+.div__servico__contratado1
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 12px solid rgb(0, 203, 203);
+  height: 260px;
+  width: 280px;
+}
+
+.div__servico__contratado2
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 12px solid rgb(0, 149, 149);
+  height: 260px;
+  width: 280px;
+}
+
+.icone
+{
+  margin-bottom: 20px;
+  color: rgb(0, 237, 237);
+  height: 50px;
+  width: 50px;
+  margin-top: 30px;
+}
+
+.icone1
+{
+  margin-bottom: 20px;
+  color: rgb(0, 203, 203);
+  height: 50px;
+  width: 50px;
+  margin-top: 30px;
+}
+
+.icone2
+{
+  margin-bottom: 20px;
+  color: rgb(0, 149, 149);
+  height: 50px;
+  width: 50px;
+  margin-top: 30px;
+}
+.title__servicos
+{
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.nav-link-servicos
+{
+  color: black;
+  font-size: 12px;
+  letter-spacing: 1px;
+}

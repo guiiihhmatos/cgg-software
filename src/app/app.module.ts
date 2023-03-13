@@ -20,6 +20,8 @@ import { AdminServicoComponent } from './pages/admin/admin-servico/admin-servico
 import {MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { AdminServicosDetalhesComponent } from './pages/admin/admin-servicos-detalhes/admin-servicos-detalhes.component';
+import { NgCircleProgressModule, CircleProgressOptions  } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,7 @@ import { MatSortModule } from '@angular/material/sort';
     MenuAdminComponent,
     MenuLateralComponent,
     AdminServicoComponent,
+    AdminServicosDetalhesComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,9 +47,12 @@ import { MatSortModule } from '@angular/material/sort';
     MatPaginatorModule,
     MatSortModule,
     MatTableModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgCircleProgressModule.forRoot({
+      // opções de configuração aqui
+    })
   ],
-  providers: [],
+  providers: [CircleProgressOptions],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -80,3 +80,52 @@
   cursor: pointer;
 }
 
+@media only screen and (max-width: 1400px)
+{
+  .dashboard__block
+  {
+    height: 180px;
+    width: 250px;
+  }
+
+  .dashboard
+  {
+    width: 100%;
+  }
+
+  .graphics__services
+  {
+    height: 300px;
+    width: 600px;
+  }
+
+  .graphics__services2
+  {
+    height: 300px;
+    width: 300px;
+  }
+
+}
+
+@media only screen and (max-width: 1200px)
+{
+
+  .dashboard__graphics
+  {
+    flex-direction: column;
+  }
+
+  .graphics__services
+  {
+    height: 300px;
+    width: 600px;
+  }
+
+  .graphics__services2
+  {
+    margin-top: 10vh;
+    height: 400px;
+    width: 400px;
+  }
+
+}

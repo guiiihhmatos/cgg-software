@@ -30,3 +30,18 @@
   background-color: #f3f8fb;
   min-height: 890px;
 }
+
+@media only screen and (max-width: 1400px)
+{
+  .lateral
+  {
+    width: 20vw;
+    position: fixed;
+  }
+
+  .central
+  {
+    margin-left: 20%;
+    width: 80%;
+  }
+}

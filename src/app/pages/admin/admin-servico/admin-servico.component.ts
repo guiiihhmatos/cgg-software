@@ -44,7 +44,7 @@ export class AdminServicoComponent implements OnInit {
 
   redirectDetails(servico : any)
   {
-    this.router.navigate([`admin/servicos/detalhes`], {state:{data: servico}})
+    this.router.navigate([`/admin/servicos/${servico.codigo_servico}}`], {state:{data: servico}})
   }
 
   getServico()
