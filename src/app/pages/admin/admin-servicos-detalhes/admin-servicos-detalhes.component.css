@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 .detalhes
 {
   width: 80%;
@@ -11,9 +13,9 @@
   align-items: center;
 }
 
-.servico__contratados
+.div__servicos
 {
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 .div__servico__contratado
@@ -23,66 +25,29 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-  border-bottom: 12px solid rgb(0, 237, 237);
+  border-bottom: 12px solid var(--secondary-color);
   height: 260px;
   width: 280px;
-}
-
-.div__servico__contratado1
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  border-bottom: 12px solid rgb(0, 203, 203);
-  height: 260px;
-  width: 280px;
-}
-
-.div__servico__contratado2
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  border-bottom: 12px solid rgb(0, 149, 149);
-  height: 260px;
-  width: 280px;
+  border-radius: 20px;
 }
 
 .icone
 {
   margin-bottom: 20px;
-  color: rgb(0, 237, 237);
+  color: var(--secondary-color);
   height: 50px;
   width: 50px;
   margin-top: 30px;
 }
 
-.icone1
-{
-  margin-bottom: 20px;
-  color: rgb(0, 203, 203);
-  height: 50px;
-  width: 50px;
-  margin-top: 30px;
-}
-
-.icone2
-{
-  margin-bottom: 20px;
-  color: rgb(0, 149, 149);
-  height: 50px;
-  width: 50px;
-  margin-top: 30px;
-}
 .title__servicos
 {
-  letter-spacing: 1px;
-  font-weight: 400;
-  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 30px;
+  color: #b6b6b6;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
 }
 
 .nav-link-servicos
@@ -90,4 +55,50 @@
   color: black;
   font-size: 12px;
   letter-spacing: 1px;
+}
+
+.title__doc
+{
+  margin-top: 10vh;
+}
+
+.div__documentos
+{
+  margin-top: 30px;
+  height: 150px;
+  width: 70%;
+}
+
+.block__documentos
+{
+  background-color: white;
+  height: 150px;
+  width: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.block__documentos:hover
+{
+  transform: scale(1.1);
+}
+
+.icone-doc
+{
+  color: var(--secondary-color);
+  height: 50px;
+  width: 50px;
+  margin-top: 30px;
+}
+
+.documentos__font
+{
+  text-align: center;
+  font-size: 10px;
+  margin: 0 10%;
+  color: #b6b6b6;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
 }

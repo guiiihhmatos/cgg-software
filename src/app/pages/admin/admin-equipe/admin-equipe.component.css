@@ -1,0 +1,63 @@
+.servicos
+{
+  width: 70vw;
+}
+
+.excel
+{
+  width: 70vw;
+  margin-top: 15vh;
+  margin-bottom: 2vh;
+}
+
+.button-excel
+{
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  height: 50px;
+}
+
+/* === Tabela === */
+
+td:nth-child(1)
+{
+  width: 30%;
+}
+
+td:nth-child(2)
+{
+  width: 30%;
+}
+
+td:nth-child(3)
+{
+  width: 30%;
+}
+
+td:nth-child(4)
+{
+  width: 5%;
+}
+
+
+.tabela th
+{
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+
+.tabela td
+{
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.tabela tr:hover
+{
+  cursor: pointer;
+  background-color: #f4f4f4;
+}

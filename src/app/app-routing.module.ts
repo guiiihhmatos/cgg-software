@@ -1,3 +1,4 @@
+import { AdminEquipeComponent } from './pages/admin/admin-equipe/admin-equipe.component';
 import { AdminServicosDetalhesComponent } from './pages/admin/admin-servicos-detalhes/admin-servicos-detalhes.component';
 import { AdminServicoComponent } from './pages/admin/admin-servico/admin-servico.component';
 import { LoginComponent } from './pages/auth/login/login.component';
@@ -31,6 +32,9 @@ const routes: Routes = [
       },
       {
         path: 'servicos/:codigo_servico', component: AdminServicosDetalhesComponent, canActivate: [AuthGuard]
+      },
+      {
+        path: 'equipe', component: AdminEquipeComponent, canActivate: [AuthGuard]
       }
     ]
   }

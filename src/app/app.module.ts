@@ -22,6 +22,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { AdminServicosDetalhesComponent } from './pages/admin/admin-servicos-detalhes/admin-servicos-detalhes.component';
 import { NgCircleProgressModule, CircleProgressOptions  } from 'ng-circle-progress';
+import { AdminEquipeComponent } from './pages/admin/admin-equipe/admin-equipe.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { NgCircleProgressModule, CircleProgressOptions  } from 'ng-circle-progre
     MenuLateralComponent,
     AdminServicoComponent,
     AdminServicosDetalhesComponent,
+    AdminEquipeComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,45 @@
+
+<section class="d-flex flex-column align-items-center w-100">
+
+  <div class="excel">
+    <button (click)="exportexcel()" class="button-excel">Exportar Excel</button>
+  </div>
+
+  <div class="servicos shadow">
+
+    <table mat-table #table [dataSource]="dataSource" matSort class="tabela" id="excel-table">
+
+      <ng-container matColumnDef="nome">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Nome </th>
+        <td mat-cell *matCellDef="let element"> {{element.nome}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="cargo">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Cargo </th>
+        <td mat-cell *matCellDef="let element"> {{element.cargo | uppercase}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="departamento">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Departamento</th>
+        <td mat-cell *matCellDef="let element"> {{element.departamento}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="data_emissao">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Data Emissão </th>
+        <td mat-cell *matCellDef="let element"> {{element.data_emissao | date: 'dd/MM/yyyy'}} </td>
+      </ng-container>
+
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+
+
+
+    <mat-paginator [pageSize]="5" [pageSizeOptions]="[2, 5, 10]">
+    </mat-paginator>
+
+  </div>
+
+</section>

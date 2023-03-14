@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "João Silva",
+    "cargo": "Desenvolvedor de Software",
+    "departamento": "Desenvolvimento",
+    "data_emissao": "2022-01-10"
+  },
+  {
+    "nome": "Maria Santos",
+    "cargo": "Analista de Sistemas",
+    "departamento": "TI",
+    "data_emissao": "2021-09-15"
+  },
+  {
+    "nome": "Pedro Almeida",
+    "cargo": "Gerente de Projetos",
+    "departamento": "Gerência de Projetos",
+    "data_emissao": "2022-02-20"
+  },
+  {
+    "nome": "Ana Oliveira",
+    "cargo": "Analista de Dados",
+    "departamento": "Data Science",
+    "data_emissao": "2021-12-05"
+  }
+]

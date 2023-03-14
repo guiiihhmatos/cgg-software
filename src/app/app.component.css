@@ -10,6 +10,13 @@
   z-index: 99;
 }
 
+.header-admin
+{
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
 
 /* === admin === */
 
@@ -18,16 +25,18 @@
   width: 13vw;
   background-color: green;
   height: 100vh;
+  position: fixed;
 }
 
 .central
 {
   width: 87%;
+  margin-left: 13%;
 }
 
 .conteudo-admin
 {
-  background-color: #f3f8fb;
+  background-color: #fafbfe;
   min-height: 890px;
 }
 
@@ -36,7 +45,6 @@
   .lateral
   {
     width: 20vw;
-    position: fixed;
   }
 
   .central
