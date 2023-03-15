@@ -6,17 +6,18 @@
 
       <div class="div__circle">
         <circle-progress
-          [percent]="100"
+          [percent]="percent"
           [maxPercent]="100"
           [showTitle]="true"
           [titleColor]="'#333'"
           [subtitle]="'Progresso'"
           [units]="'%'"
           [outerStrokeWidth]="8"
-          [outerStrokeColor]="'#78C000'"
+          [outerStrokeColor]="colorOuter"
           [innerStrokeWidth]="4"
-          [innerStrokeColor]="'#C7E596'"
+          [innerStrokeColor]="colorInner"
           [animationDuration]="700"
+          [ngClass]="{'red': percent < 50, 'yellow': percent >= 50, 'green': percent == 100}"
         ></circle-progress>
       </div>
 
