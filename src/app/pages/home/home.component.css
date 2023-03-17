@@ -79,7 +79,6 @@
   overflow: hidden;
   white-space: nowrap;
   margin: 0;
-  animation: aparecendo 1s steps(30, end);
 }
 
 /* ===== Home nossos servicos ===== */
@@ -146,14 +145,17 @@
   animation: rotate 8s linear infinite;
 }
 
+.parceria__image
+{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
 /* ===== key frames ===== */
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes aparecendo {
   from { width: 0 }
   to { width: 100% }
 }

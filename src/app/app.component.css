@@ -5,9 +5,7 @@
 
 .header
 {
-  position: sticky;
-  top: 0;
-  z-index: 99;
+  position: static;
 }
 
 .header-admin
@@ -30,13 +28,13 @@
 .central
 {
   width: 87%;
-  margin-left: 13%;
+  margin-left: 13vw;
 }
 
 .conteudo-admin
 {
   background-color: #fafbfe;
-  min-height: 890px;
+  min-height: 796px;
 }
 
 @media only screen and (max-width: 1400px)
