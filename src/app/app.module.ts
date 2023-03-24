@@ -15,7 +15,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AdminHomeComponent } from './pages/admin/admin-home/admin-home.component';
 import { MenuAdminComponent } from './components/menu-admin/menu-admin.component';
-import { MenuLateralComponent } from './components/menu-lateral/menu-lateral.component';
 import { AdminServicoComponent } from './pages/admin/admin-servico/admin-servico.component';
 import {MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
@@ -23,6 +22,9 @@ import { MatSortModule } from '@angular/material/sort';
 import { AdminServicosDetalhesComponent } from './pages/admin/admin-servicos-detalhes/admin-servicos-detalhes.component';
 import { NgCircleProgressModule, CircleProgressOptions  } from 'ng-circle-progress';
 import { AdminEquipeComponent } from './pages/admin/admin-equipe/admin-equipe.component';
+import { AdminCadastrarFuncionarioComponent } from './pages/admin/admin-cadastrar-funcionario/admin-cadastrar-funcionario.component';
+import { MenuMobileComponent } from './components/menu-admin/menu-mobile/menu-mobile.component';
+import { MenuLateralComponent } from './components/menu-admin/menu-lateral/menu-lateral.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,8 @@ import { AdminEquipeComponent } from './pages/admin/admin-equipe/admin-equipe.co
     AdminServicoComponent,
     AdminServicosDetalhesComponent,
     AdminEquipeComponent,
+    AdminCadastrarFuncionarioComponent,
+    MenuMobileComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,5 @@
 import { AuthService } from 'src/app/services/auth.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-menu-admin',
@@ -9,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class MenuAdminComponent implements OnInit {
 
   user !: string | null
+
+  @Output() val = false
 
   constructor
   (

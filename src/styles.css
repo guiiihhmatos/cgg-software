@@ -61,3 +61,13 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+@media only screen and (max-width: 1200px)
+{
+  .default-button
+  {
+    width: 120px;
+    height: 40px;
+  }
+}

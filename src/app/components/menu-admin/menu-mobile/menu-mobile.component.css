@@ -1,0 +1,52 @@
+.menu-lateral
+{
+  height: 100%;
+  background-color: white;
+}
+
+.menu-lateral__corpo
+{
+  height: 90vh;
+  margin-top: 10vh;
+}
+
+.menu-lateral__footer p
+{
+  color: white;
+  font-size: 12px;
+}
+
+li.active
+{
+  border-left: 4px solid var(--primary-color);
+}
+
+.nav-item
+{
+  cursor: pointer;
+  width: 100%;
+  margin: 8px 0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teste
+{
+  color: var(--primary-color);
+  height: 20px;
+  width: 20px;
+}
+
+.nav-item:hover
+{
+  border-left: 4px solid var(--primary-color);
+  transition: 0.4s;
+}
+
+.logo
+{
+  width: 50px;
+  height: 50px;
+}

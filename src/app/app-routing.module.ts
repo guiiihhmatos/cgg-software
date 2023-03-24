@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ServicosComponent } from './pages/servicos/servicos.component';
 import { AdminHomeComponent } from './pages/admin/admin-home/admin-home.component';
 import { AuthGuard } from './guards/auth.guard';
+import { AdminCadastrarFuncionarioComponent } from './pages/admin/admin-cadastrar-funcionario/admin-cadastrar-funcionario.component';
 
 const routes: Routes = [
   {
@@ -35,6 +36,9 @@ const routes: Routes = [
       },
       {
         path: 'equipe', component: AdminEquipeComponent, canActivate: [AuthGuard]
+      },
+      {
+        path: 'cadastrar/funcionario', component : AdminCadastrarFuncionarioComponent, canActivate: [AuthGuard]
       }
     ]
   }
