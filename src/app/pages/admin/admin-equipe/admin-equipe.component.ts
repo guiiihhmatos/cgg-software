@@ -25,7 +25,8 @@ export class AdminEquipeComponent implements OnInit {
 
   constructor
   (
-    private serviceEquipe : EquipeService
+    private serviceEquipe : EquipeService,
+    private router : Router
   )
   {}
 
@@ -46,6 +47,11 @@ export class AdminEquipeComponent implements OnInit {
     this.dataSource.sort = this.sort;
     this.dataSource.paginator = this.paginator;
 
+  }
+
+  cadastrarFuncionario()
+  {
+    this.router.navigate([`/admin/cadastrar/funcionario`])
   }
 
   exportexcel(): void
