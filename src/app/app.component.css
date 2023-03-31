@@ -34,12 +34,12 @@
 .conteudo-admin
 {
   background-color: #fafbfe;
-  min-height: 796px;
+  min-height: 890px;
 }
 
 app-menu-mobile
 {
-  
+
   display: none;
 }
 
@@ -54,6 +54,12 @@ app-menu-mobile
   {
     margin-left: 20%;
     width: 80%;
+  }
+
+  .conteudo-admin
+  {
+    background-color: #fafbfe;
+    min-height: 680px;
   }
 }
 
@@ -79,6 +85,12 @@ app-menu-mobile
   {
     margin-left: 8%;
     width: 92%;
+  }
+
+  .conteudo-admin
+  {
+    background-color: #fafbfe;
+    min-height: 680px;
   }
 }
 

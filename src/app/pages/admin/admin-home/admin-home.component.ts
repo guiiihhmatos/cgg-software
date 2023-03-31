@@ -28,7 +28,7 @@ export class AdminHomeComponent implements OnInit {
         labels: ['Dezembro','Janeiro', 'Fevereiro', 'Março', 'Abril'],
         datasets: [{
           label: 'Funcionários',
-          data: [0, 0, 2, 3, 3],
+          data: [3, 8, 9, 17, 21],
           backgroundColor: [
             'rgba(54, 162, 235, 0.2)'
           ],
