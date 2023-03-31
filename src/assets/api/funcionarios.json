@@ -1,26 +1,128 @@
 [
   {
+    "nome": "Guilherme Matos Santana",
+    "cargo": "Fundador",
+    "departamento": "Executivo",
+    "data_admissao": "2010-01-10"
+  },
+  {
+    "nome": "Caio Rodrigo de Oliveira",
+    "cargo": "Cofundador",
+    "departamento": "Executivo",
+    "data_admissao": "2010-01-10"
+  },
+  {
+    "nome": "Gustavo Fernandes Reis",
+    "cargo": "Cofundador",
+    "departamento": "Executivo",
+    "data_admissao": "2010-01-10"
+  },
+  {
     "nome": "João Silva",
     "cargo": "Desenvolvedor de Software",
     "departamento": "Desenvolvimento",
-    "data_emissao": "2022-01-10"
+    "data_admissao": "2022-01-10"
   },
   {
     "nome": "Maria Santos",
     "cargo": "Analista de Sistemas",
     "departamento": "TI",
-    "data_emissao": "2021-09-15"
-  },
-  {
-    "nome": "Pedro Almeida",
-    "cargo": "Gerente de Projetos",
-    "departamento": "Gerência de Projetos",
-    "data_emissao": "2022-02-20"
+    "data_admissao": "2021-09-15"
   },
   {
     "nome": "Ana Oliveira",
     "cargo": "Analista de Dados",
     "departamento": "Data Science",
-    "data_emissao": "2021-12-05"
+    "data_admissao": "2021-12-05"
+  },
+  {
+    "nome": "Pedro Almeida",
+    "cargo": "Gerente de Projetos",
+    "departamento": "Desenvolvimento",
+    "data_admissao": "2012-03-10"
+  },
+  {
+    "nome": "Lucas Oliveira",
+    "cargo": "Desenvolvedor Front-end",
+    "departamento": "Desenvolvimento",
+    "data_admissao": "2011-06-25"
+  },
+  {
+    "nome": "Mariana Costa",
+    "cargo": "Analista de Qualidade",
+    "departamento": "Qualidade de Software",
+    "data_admissao": "2013-10-15"
+  },
+  {
+    "nome": "Carla Santos",
+    "cargo": "Arquiteta de Software",
+    "departamento": "Arquitetura de Software",
+    "data_admissao": "2010-09-05"
+  },
+  {
+    "nome": "Diego Souza",
+    "cargo": "Analista de Segurança da Informação",
+    "departamento": "Segurança da Informação",
+    "data_admissao": "2012-05-30"
+  },
+  {
+    "nome": "Fernanda Silva",
+    "cargo": "Analista de Sistemas",
+    "departamento": "Análise de Sistemas",
+    "data_admissao": "2011-04-20"
+  },
+  {
+    "nome": "Gustavo Oliveira",
+    "cargo": "Desenvolvedor Full-stack",
+    "departamento": "Desenvolvimento",
+    "data_admissao": "2013-07-07"
+  },
+  {
+    "nome": "Juliana Santos",
+    "cargo": "Gerente de Produto",
+    "departamento": "Gerência de Produtos",
+    "data_admissao": "2010-12-22"
+  },
+  {
+    "nome": "Pedro Souza",
+    "cargo": "Analista de Dados",
+    "departamento": "Ciência de Dados",
+    "data_admissao": "2012-11-11"
+  },
+  {
+    "nome": "Roberta Almeida",
+    "cargo": "Desenvolvedora Back-end",
+    "departamento": "Desenvolvimento",
+    "data_admissao": "2013-08-12"
+  },
+  {
+    "nome": "Vitoria Silva",
+    "cargo": "Analista de Infraestrutura",
+    "departamento": "Infraestrutura",
+    "data_admissao": "2010-10-02"
+  },
+  {
+    "nome": "André Santos",
+    "cargo": "Gerente de Projetos",
+    "departamento": "Gerência de Projetos",
+    "data_admissao": "2011-09-18"
+  },
+  {
+    "nome": "Bruna Oliveira",
+    "cargo": "Analista de Suporte",
+    "departamento": "Suporte Técnico",
+    "data_admissao": "2012-07-23"
+  },
+  {
+    "nome": "Luciana Souza",
+    "cargo": "Desenvolvedora Front-end",
+    "departamento": "Desenvolvimento",
+    "data_admissao": "2010-06-11"
+  },
+  {
+    "nome": "Pedro Costa",
+    "cargo": "Gerente de Desenvolvimento",
+    "departamento": "Gerência",
+    "data_admissao": "2010-06-11"
   }
 ]
