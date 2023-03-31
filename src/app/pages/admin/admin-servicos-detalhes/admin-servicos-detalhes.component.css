@@ -55,7 +55,7 @@
 {
   text-align: center;
   margin-top: 30px;
-  color: #b6b6b6;
+  color: black;
   letter-spacing: 0.6px;
   font-weight: 600;
   font-family: 'Rubik', sans-serif;
@@ -77,14 +77,12 @@
 {
   margin-top: 30px;
   height: 150px;
-  width: 70%;
 }
 
 .block__documentos
 {
   background-color: white;
   height: 150px;
-  width: 120px;
   border-radius: 10px;
   cursor: pointer;
   border: none;
@@ -106,9 +104,9 @@
 .documentos__font
 {
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
   margin: 0 10%;
-  color: #b6b6b6;
+  color: black;
   letter-spacing: 0.6px;
   font-weight: 600;
   font-family: 'Rubik', sans-serif;

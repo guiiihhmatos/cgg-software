@@ -1,4 +1,7 @@
+import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-admin-cadastrar-funcionario',
@@ -7,9 +10,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminCadastrarFuncionarioComponent implements OnInit {
 
-  constructor() { }
 
+  constructor
+  (
+    private location : Location
+  )
+  {}
   ngOnInit(): void {
+  }
+
+  onBack()
+  {
+    this.location.back()
   }
 
 }
