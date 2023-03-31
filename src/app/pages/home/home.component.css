@@ -185,7 +185,7 @@
 main#carousel {
   grid-row: 1 / 2;
   grid-column: 1 / 8;
-  width: 100vw;
+  width: 99.1vw;
   height: 500px;
   display: flex;
   align-items: center;

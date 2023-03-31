@@ -1,1 +1,76 @@
-<p>admin-cadastrar-funcionario works!</p>
+<div class="d-flex flex-column justify-content-center align-items-center">
+
+  <div class="novo__title mt-5 mb-3">
+    <h3>Cadastrar Usuário no sistema</h3>
+  </div>
+
+  <div class="novo__container shadow">
+    <form>
+
+      <div class="row d-flex align-items-center justify-content-center my-3">
+
+        <div class="col-md-11">
+          <div class="form-label">Nome</div>
+          <input class="form-control" maxlength="60">
+        </div>
+
+      </div>
+      <!--Row Nome-->
+
+      <div class="row d-flex align-items-center justify-content-center my-3 ">
+
+        <div class="col-md-4">
+          <div class="form-label">Registro</div>
+          <input class="form-control" maxlength="11">
+        </div>
+
+        <div class="col-md-4">
+          <div class="form-label">Login</div>
+          <input class="form-control" maxlength="15">
+        </div>
+
+        <div class="col-md-3">
+          <div class="form-label">Senha</div>
+          <input type="password" class="form-control desabilitado" readonly value="123@cgg">
+        </div>
+
+      </div>
+
+      <!--Row Registro, Login e senha-->
+
+      <div class="row d-flex align-items-center justify-content-center my-3 ">
+
+        <div class="col-md-4">
+          <div class="form-label">CPF</div>
+          <input class="form-control" maxlength="11">
+        </div>
+
+        <div class="col-md-4">
+          <div class="form-label">Data nascimento</div>
+          <input type="date" class="form-control" maxlength="15">
+        </div>
+
+        <div class="col-md-3">
+          <div class="form-label">RG</div>
+          <input class="form-control" maxlength="15">
+        </div>
+
+      </div>
+
+      <!--Row cpf, dtNascimento e Rg-->
+
+    </form>
+
+    <div class="row d-flex justify-content-center mt-5 mb-3">
+      <div class="col-md-8 text-center">
+        <button class="default-button">Salvar</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row d-flex justify-content-end mt-5 mb-3">
+      <button class="default-button" (click)="onBack()">Voltar</button>
+  </div>
+
+</div>

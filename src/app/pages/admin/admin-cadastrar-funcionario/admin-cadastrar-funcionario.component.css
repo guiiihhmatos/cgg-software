@@ -1,0 +1,27 @@
+.novo__container
+{
+  min-height: 20vh;
+  width: 50vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.btn
+{
+  background-color:  var(--color-primary);
+  color: white;
+  height: 5vh;
+  width: 8vw;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover
+{
+  transition: 0.5s;
+  background-color: var(--color-secondary);
+}
+
+.desabilitado{
+  background-color: #eaeaea;
+}
