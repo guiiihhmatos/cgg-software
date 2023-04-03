@@ -1,0 +1,46 @@
+.container-left, .container-right
+{
+  height: 480px;
+}
+
+.container-left
+{
+  background-color: #e8eaf9;
+  border-radius: 20px 0 0 20px;
+}
+
+.container-left input, textarea
+{
+  margin: 6px 0;
+}
+
+.container-right
+{
+  background-color: white;
+  border-radius: 0 20px 20px 0;
+}
+
+.logo__contato
+{
+  height: 400px;
+  width: 400px;
+}
+
+.contato
+{
+  width: 50%;
+}
+
+@media only screen and (max-width: 1600px)
+{
+  .logo__contato
+  {
+    height: 300px;
+    width: 300px;
+  }
+
+  .contato
+  {
+    width: 70%;
+  }
+}

@@ -25,6 +25,7 @@ import { AdminEquipeComponent } from './pages/admin/admin-equipe/admin-equipe.co
 import { AdminCadastrarFuncionarioComponent } from './pages/admin/admin-cadastrar-funcionario/admin-cadastrar-funcionario.component';
 import { MenuMobileComponent } from './components/menu-admin/menu-mobile/menu-mobile.component';
 import { MenuLateralComponent } from './components/menu-admin/menu-lateral/menu-lateral.component';
+import { ContatoComponent } from './pages/contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { MenuLateralComponent } from './components/menu-admin/menu-lateral/menu-
     AdminEquipeComponent,
     AdminCadastrarFuncionarioComponent,
     MenuMobileComponent,
+    ContatoComponent,
   ],
   imports: [
     BrowserModule,

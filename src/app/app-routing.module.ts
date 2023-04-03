@@ -9,6 +9,7 @@ import { ServicosComponent } from './pages/servicos/servicos.component';
 import { AdminHomeComponent } from './pages/admin/admin-home/admin-home.component';
 import { AuthGuard } from './guards/auth.guard';
 import { AdminCadastrarFuncionarioComponent } from './pages/admin/admin-cadastrar-funcionario/admin-cadastrar-funcionario.component';
+import { ContatoComponent } from './pages/contato/contato.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,9 @@ const routes: Routes = [
   },
   {
     path: 'servicos', component: ServicosComponent
+  },
+  {
+    path: 'contato', component: ContatoComponent
   },
   {
     path: 'login', component: LoginComponent
