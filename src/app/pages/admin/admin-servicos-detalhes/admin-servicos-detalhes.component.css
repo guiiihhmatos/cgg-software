@@ -16,6 +16,7 @@
 .div__servicos
 {
   margin-top: 5vh;
+  width: 75vw;
 }
 
 .div__servico__contratado
@@ -110,4 +111,26 @@
   letter-spacing: 0.6px;
   font-weight: 600;
   font-family: 'Rubik', sans-serif;
+}
+
+@media only screen and (max-width: 1400px)
+{
+
+  .div__servico__contratado
+  {
+    height: 220px;
+    width: 180px;
+    border-radius: 20px;
+  }
+
+  .title__servicos
+  {
+    font-size: 12px;
+  }
+
+  .documentos__font
+  {
+    font-size: 10px;
+  }
+
 }
