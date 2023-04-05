@@ -5,6 +5,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import * as XLSX from 'xlsx';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-admin-servico',
@@ -16,6 +17,8 @@ export class AdminServicoComponent implements OnInit {
   displayedColumns = ['codigo', 'nome', 'cliente', 'data_inicio' ,'status']
 
   fileName = 'ExcelSheet.xlsx';
+
+  servidores : any[] = []
 
   public dataSource = new MatTableDataSource<any>();
 
@@ -53,13 +56,33 @@ export class AdminServicoComponent implements OnInit {
 
       this.dataSource.data = value
 
+      this.servidores = []
+
+      for(const element of value)
+      {
+          let date = new DatePipe('en-US')
+          let id = element.id
+
+          let servidor = {
+            'Código Serviço' : element.codigo_servico,
+            'Nome Serviço' : element.nome_servico,
+            'Cliente' : element.cliente[0].nome_empresa,
+            'Data Inicio' : element.data_inicio,
+            'Serviços realizados' : element.servicos_realizados[0],
+            'Status' : element.status,
+            'Percentual' : element.percentual
+          }
+
+          this.servidores.push(servidor)
+      }
+
     })
   }
 
   exportexcel(): void
   {
     /* pass here the table id */
-    const ws: XLSX.WorkSheet =XLSX.utils.json_to_sheet(this.dataSource.data);
+    const ws: XLSX.WorkSheet =XLSX.utils.json_to_sheet(this.servidores);
 
     /* generate workbook and add the worksheet */
     const wb: XLSX.WorkBook = XLSX.utils.book_new();
