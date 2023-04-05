@@ -75,7 +75,8 @@
           A CGG já está atuando no mercado há 10 anos, dando satisfação aos clientes que usufruem de nossos serviços.
         </p>
         <p class="quemSomos__texto">
-          Nosso trabalho é fornecer suporte em diversas questões tecnológicas para a empresa, quanto aos serviços que prestamos.
+          Nosso trabalho é fornecer suporte em diversas questões tecnológicas para a empresa, quanto aos serviços que
+          prestamos.
         </p>
       </div>
 
@@ -87,104 +88,47 @@
     <!-- Nossos serviços -->
 
     <div class="home__servicos__title">
-      <h2>Nossos Serviços</h2>
+      <h2>Principais Clientes</h2>
     </div>
 
     <div class="my-5 d-flex flex-column justify-content-center align-items-center w-100">
 
       <div class="row g-0 d-flex justify-content-center align-items-center w-100 mb-5">
 
-        <div class="col-md-4 home__servicos-bloco text-center mx-5">
-
-          <div class="d-flex flex-column justify-content-center align-items-center">
-            <h3 class="bloco-titulo font-weight">Instalação de Sistema Operacional</h3>
-
-            <p class="bloco-subtitulo">
-              Com nossa expertise, conseguimos transformar a tecnologia em uma vantagem competitiva para nossos
-              clientes, otimizando processos e
-              elevando o desempenho operacional.
-            </p>
+        <div class="col-md-4 home__servicos-bloco text-center mx-5" (click)="redirectCompany('https://greenvegan013.menudino.com/')">
+          <div class="card">
+            <!--Empresa-->
+            Green Vegan
+            <img src="assets\images\green-vegan.png" alt="">
           </div>
-
         </div>
 
-        <div class="col-md-4 home__servicos-bloco text-center mx-5">
-
-          <div class="d-flex flex-column justify-content-center align-items-center">
-
-            <h3 class="bloco-titulo font-weight">Consultoria em tecnologia da informação</h3>
-
-            <p class="bloco-subtitulo">
-              Oferecemos soluções de TI, como análise de processos de negócios, arquitetura de sistemas,
-              planejamento e implementação de projetos de TI.
-            </p>
-
+        <div class="col-md-4 home__servicos-bloco text-center mx-5" (click)="redirectCompany('https://www.paulumar.com.br/')">
+          <div class="card">
+            <!--Empresa-->
+            Paulimar Imóveis
+            <img src="assets\images\paulimar-imoveis.jpg" alt="">
           </div>
-
         </div>
 
       </div>
 
       <div class="row g-0 d-flex justify-content-center align-items-center w-100 mb-5">
 
-        <div class="col-md-4 home__servicos-bloco text-center mx-5">
-
-          <div class="d-flex flex-column justify-content-center align-items-center">
-            <h3 class="bloco-titulo font-weight">Desenvolvimento de softwares personalizados para empresas</h3>
-
-            <p class="bloco-subtitulo">
-              Desenvolvimento de programas de software personalizados para atender às necessidades
-              específicas das empresas, desde aplicativos desktop até soluções baseadas em nuvem.
-            </p>
+        <div class="col-md-4 home__servicos-bloco text-center mx-5" (click)="redirectCompany('https://www.vicentao.com.br/')">
+          <div class="card">
+            <!--Empresa-->
+            Vicentão Auto Peças
+            <img src="assets\images\vicentao.png" alt="">
           </div>
-
         </div>
 
-        <div class="col-md-4 home__servicos-bloco text-center mx-5">
-
-          <div class="d-flex flex-column justify-content-center align-items-center">
-
-            <h3 class="bloco-titulo font-weight">Implantação e gerenciamento de infraestrutura de servidores</h3>
-
-            <p class="bloco-subtitulo">
-              Implementação, configuração e gerenciamento de infraestrutura de servidores,
-              incluindo hardware, sistema operacional e serviços.
-            </p>
-
+        <div class="col-md-4 home__servicos-bloco text-center mx-5" (click)="redirectCompany('https://idealmex.com.br/')">
+          <div class="card">
+            <!--Empresa-->
+            Idealmex Transportadora
+            <img src="assets\images\idealmex-transportadora.jpg" alt="">
           </div>
-
-        </div>
-
-      </div>
-
-      <div class="row g-0 d-flex justify-content-center align-items-center w-100 mb-5">
-
-        <div class="col-md-4 home__servicos-bloco text-center mx-5">
-
-          <div class="d-flex flex-column justify-content-center align-items-center">
-            <h3 class="bloco-titulo font-weight">Segurança da informação</h3>
-
-            <p class="bloco-subtitulo">
-              Implementação de soluções de segurança da informação, como firewall, antivírus, criptografia,
-              autenticação, gerenciamento de identidade e acesso, monitoramento de eventos e prevenção contra ameaças.
-            </p>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 home__servicos-bloco text-center mx-5">
-
-          <div class="d-flex flex-column justify-content-center align-items-center">
-
-            <h3 class="bloco-titulo font-weight">Suporte técnico e manutenção de hardware e software</h3>
-
-            <p class="bloco-subtitulo">
-              Oferecemos suporte técnico para hardware e software, incluindo manutenção, reparo e atualização de
-              sistemas.
-            </p>
-
-          </div>
-
         </div>
 
       </div>
@@ -194,22 +138,22 @@
 
   <div class="parceiros ">
 
-    <input type="radio" name="position"  />
-    <input type="radio" name="position" checked/>
+    <input type="radio" name="position" />
+    <input type="radio" name="position" checked />
     <input type="radio" name="position" />
 
-  <main id="carousel" class="">
-    <div class="slide">
-      <img src="assets/images/system.png" alt="parceria" class="parceria__image">
-    </div>
-    <div class="slide">
-      <img src="assets/images/lucid.png" alt="parceria" class="parceria__image">
-    </div>
-    <div class="slide">
-      <img src="assets/images/goDaddy.jfif" alt="parceria" class="parceria__image">
-    </div>
+    <main id="carousel" class="">
+      <div class="slide">
+        <img src="assets/images/system.png" alt="parceria" class="parceria__image">
+      </div>
+      <div class="slide">
+        <img src="assets/images/lucid.png" alt="parceria" class="parceria__image">
+      </div>
+      <div class="slide">
+        <img src="assets/images/goDaddy.jfif" alt="parceria" class="parceria__image">
+      </div>
 
-  </main>
+    </main>
 
   </div>
 

@@ -109,9 +109,16 @@
 
 .home__servicos-bloco
 {
+  max-width: 290px;
   padding: 10px;
-  height: 150px;
+  /* height: 150px; */
 }
+.home__servicos-bloco:hover
+{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 
 .icone__servico
 {
