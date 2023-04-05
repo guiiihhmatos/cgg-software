@@ -176,6 +176,17 @@
   }
 }
 
+.div__parceiros
+{
+  background-color: #367FD6;
+}
+
+.title
+{
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+}
+
 .parceiros
 {
   height: 600px;
@@ -185,7 +196,7 @@
   grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
   align-items: center;
   justify-items: center;
-  background-color: #367FD6;
+
 }
 
 
